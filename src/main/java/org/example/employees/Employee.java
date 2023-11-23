@@ -1,4 +1,4 @@
-package org.example;
+package org.example.employees;
 
 public class Employee extends Person {
 
@@ -20,6 +20,6 @@ public class Employee extends Person {
 
     @Override
     public String eatFood() {
-        return null;
+        return "Nom nom nom!";
     }
 }

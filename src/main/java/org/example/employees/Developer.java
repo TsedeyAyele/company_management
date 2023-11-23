@@ -1,6 +1,8 @@
-package org.example;
+package org.example.employees;
 
-public class Developer extends Employee{
+import org.example.employees.Employee;
+
+public class Developer extends Employee {
     private String programmingLanguage;
 
     public Developer(String name, String programmingLanguage) {
@@ -9,7 +11,7 @@ public class Developer extends Employee{
     }
 @Override
     public String getSound(){
-        return "Woop woop";
+        return "Woop woop!";
     }
 
     public String getProgrammingLanguage(){
